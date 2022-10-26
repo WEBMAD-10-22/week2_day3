@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url('./images/code.jpg') center / cover no-repeat;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: white;
+    font-size: 4em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    width: 600px;
+}
+
+.red-ugly-text {
+    color: red;
+    text-decoration: underline;
+}
+
+.uwu-button {
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.uwu-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.text-input {
+    width: 300px;
+    height: 20px;
+    margin-bottom: 10px;
+}
